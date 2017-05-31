@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from  './contact';
+import Contact from  './contacts';
 
 export default function ContactList(props) {
     const contacts = Object.keys(props.contacts).map((contactId, index) => {
