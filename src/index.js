@@ -11,8 +11,6 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-//import {Router, Route, hashHistory} from 'react-router';
-
 ReactDOM.render((
     <HashRouter>
     </HashRouter >
@@ -22,7 +20,7 @@ registerServiceWorker();
 
 
 const routes = (
-    <Router history={hashHistory}>
+    <Router history={HashRouter}>
     <Route path="/contacts" component={ContactListContainer} />
     </Router>
 );
